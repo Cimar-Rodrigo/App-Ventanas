@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion de grados"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/edtGrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese grados a convertir..."
+        android:inputType="number|numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConvertirG"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:onClick="convertir"
+            android:text="Convertir" />
+
+
+        <Button
+            android:id="@+id/btnLimpiarG"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="limpiar"
+            android:text="Limpiar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVolverG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:onClick="volver"/>
+
+    <TextView
+        android:id="@+id/txtGrado"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:gravity="center"
+        android:text="°F = 9/5 * °C + 32"
+        android:textSize="25sp" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sistema de conversiones"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnMonedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion de monedas"
+        android:onClick="irMonedas"/>
+
+    <Button
+        android:id="@+id/btnGrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion de grados"
+        android:onClick="irGrados"/>
+
+    <Button
+        android:id="@+id/btnMedidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversion de medidas"
+        android:onClick="irMedidas" />
+
+    <Button
+        android:id="@+id/btnFinalizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar"
+        android:onClick="finalizar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cimar Rodrigo Morales - 352"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

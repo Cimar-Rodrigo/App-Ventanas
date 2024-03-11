@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_items">
+        <item>Seleccione una opcion</item>
+        <item>Milimetros</item>
+        <item>Centimetros</item>
+        <item>Decimetros</item>
+        <item>Metros</item>
+        <item>Pulgadas</item>
+        <item>Pies</item>
+        <item>Yardas</item>
+        <item>Millas</item>
+        <item>Kilometros</item>
+    </string-array>
+</resources>
